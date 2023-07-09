@@ -1,0 +1,10 @@
+1. run using ->  java -jar [name of jar]
+    package the application using -> mvnw package
+                    for mac/linux -> ./mvnw package
+                    jars will be created in /target/[here].jar directory
+
+2. run using -> mvnw spring-boot:run
+    package the application using -> mvnw package
+    mvnw - maven wrapper file to run a maven project without installing
+    mvnw.cmd - for windows      -> > mvnw clean compile test
+    mvnw.sh - for mac and linux -> $ ./mvnw clean compile test

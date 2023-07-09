@@ -1,0 +1,4 @@
+-you can inject values in application.properties file by using @Value annotation by spring
+-define custom properties in application.properties for e.g
+    student.name=john
+    student.marks=777
